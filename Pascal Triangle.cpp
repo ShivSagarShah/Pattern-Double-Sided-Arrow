@@ -9,15 +9,15 @@ int main()
         int s = n-i-1;
         while(s>0)
         {
-            cout<<" ";
+            cout<<" "<<" ";
             s--;
         }
         int c = 1;
-        cout<<c<<" ";
+        cout<<c<<" "<<" "<<" ";
         for(int j = 1; j<=i; j++)
         {
             c = c * (i-j+1)/j;
-            cout<<c<<" ";
+            cout<<c<<" "<<" "<<" ";
         }
         cout<<endl;
     }
